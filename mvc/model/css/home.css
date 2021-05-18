@@ -1,0 +1,116 @@
+
+a{
+  text-decoration: none;
+}
+body, html {
+height: 100%
+}
+body,h1,h2,h3,h4,h5,h6 {
+font-family: "Amatic SC", sans-serif
+}
+.menu {
+display: none
+}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2983098/pexels-photo-2983098.jpeg?cs=srgb&dl=pexels-jonathan-borba-2983098.jpg&fm=jpg");
+    min-height: 90%;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/1437629/pexels-photo-1437629.jpeg?cs=srgb&dl=pexels-lovefood-art-1437629.jpg&fm=jpg");
+    min-height: 120%;
+
+}
+.background2{
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/2632279/pexels-photo-2632279.jpeg?cs=srgb&dl=pexels-madison-inouye-2632279.jpg&fm=jpg");
+    min-height: 100%;
+}
+.background3 {
+       background-repeat: no-repeat;
+           background-size: cover;
+           background-image: url("https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?cs=srgb&dl=pexels-nerfee-mirandilla-3186654.jpg&fm=jpg");
+
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+
+li a {
+   display: block;
+    color: white;
+    text-align: center;
+    padding: 26px 28px;
+    text-decoration: none;
+    font-size: 28px;
+}
+li a:hover {
+    background-color: greenyellow;
+}
+#clickButton{
+   display: block;
+    font-size: 50px;
+    color: white;
+    background-color:black;
+    position: absolute;
+    left: 40%;
+    top:50%;
+}
+#title{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: aqua;
+    position:absolute;
+    left: 42%;
+    font-size: 60px;
+    top:-2%;
+
+}
+#registerSet{
+   font-size: 30px;
+             font-weight: bold;
+
+             position: absolute;
+          top: 260%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+}
+
+               #settingLogin{
+             font-size: 30px;
+             font-weight: bold;
+
+             position: absolute;
+          top: 260%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+
+         }
+
+         #contactInfo{
+           font-size: 30px;
+             font-weight: bold;
+
+             position: absolute;
+          top: 60%;
+          left: 50%;
+          margin-right: -50%;
+          transform: translate(-50%, -50%);
+          font-family:  'FranchiseRegular','Arial Narrow',Arial,sans-serif;
+         }

@@ -1,0 +1,74 @@
+<html>
+    <head>
+<title>homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/home.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+
+    <style>
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: yellowgreen;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;font-size: 28px;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+
+<body class="bgimg">
+<div>
+    <ul>
+        <li><a href="home.html">HOME</a></li>
+    <li><a href="feedback.php">FEEDBACK</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <li><a href="#" id="title">Rony's dine</a></li>
+    <li style="float:right"> <a href="login.php">Login</a></li>
+    <li class="dropdown" style="float: right">
+        <a href="#" class="dropbtn">Sign Up</a>
+    <div class="dropdown-content">
+
+
+        <a href="register.php" name="user">User</a>
+
+    </div>
+    </li>
+    </ul>
+
+</div>
+<div style="text-align:center"><a href="menu.html" id="clickButton">Click here to see the Menu </a></div>
+</body>
+</html>
